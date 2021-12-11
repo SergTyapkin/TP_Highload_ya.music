@@ -183,7 +183,7 @@ tracks_collections, tracks_histories.
 а значит, и большого количества разработчиков, умеющих с ней работать.
 
 ## Физическая схема
-![Phisical scheme](Phisical scheme.png)
+![](Phisical scheme.png)
 Необходимо рассчитать характеристики и кол-во реальных серверов.
 
 ### Балансер
