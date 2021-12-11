@@ -95,11 +95,11 @@ __________________        | Запросов   | кБ      |
 ----------
 # Расчет нагрузки (хранение)
 ### Логическая схема БД
-![](DB scheme.png)
+![](DB_scheme.png)
 
 ### Денормализованная схема БД
 В таблицу tracks добавлено поле artist_name, в albums - creator_name и is_official, в tracks_histories и tracks_collections - track_name и track_artist_name. 
-![](DB scheme denormallized.png)
+![](DB_scheme_denormallized.png)
 
 ###Теперь определимся с количеством строк каждой таблицы
 * Пользователей: 4 млн. - `users`
@@ -183,7 +183,7 @@ tracks_collections, tracks_histories.
 а значит, и большого количества разработчиков, умеющих с ней работать.
 
 ## Физическая схема
-![](Phisical scheme.png)
+![](Phisical_scheme.png)
 Необходимо рассчитать характеристики и кол-во реальных серверов.
 
 ### Балансер
